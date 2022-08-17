@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(0, 255, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#map {
+    height:100%
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    font: bold;
+
+    border: solid 4px;
+    
+    fill: black
+}
+    
+#NavBar {
+    justify-content: space-evenly;
+
+}
+#logo {
+    text-align: center;
+    border: solid 2px;
+}
+
+#Nav1{
+
+}
+
+#Nav2{
+
+}
+
+#Nav3{
+
+
+}

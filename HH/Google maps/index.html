@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+ @license
+ Copyright 2019 Google LLC. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+-->
+<html>
+  <head>
+    <title>Health.Help</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- jsFiddle will insert css and js -->
+    <script src="data.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="map"></div>
+    <button id="click_here">click here</button>
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvI1hr62aehdX9Uv0T1lX3DUeGzIZh_ZE&callback=initMap"></script>
+  </body>
+</html>
